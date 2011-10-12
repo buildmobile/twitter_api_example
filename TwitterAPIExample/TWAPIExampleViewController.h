@@ -11,4 +11,8 @@
 
 @interface TWAPIExampleViewController : UIViewController
 
+    @property (nonatomic, retain) UILabel *tweetLabel;
+    
+-(void)getTweet;
+
 @end
