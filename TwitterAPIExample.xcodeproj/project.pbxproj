@@ -21,6 +21,7 @@
 		A5DE64091445BA9D00142F61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DE63E71445BA9D00142F61 /* Foundation.framework */; };
 		A5DE64111445BA9D00142F61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DE640F1445BA9D00142F61 /* InfoPlist.strings */; };
 		A5DE64141445BA9D00142F61 /* TwitterAPIExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE64131445BA9D00142F61 /* TwitterAPIExampleTests.m */; };
+		A5DE641E1445BCC500142F61 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DE641D1445BCC500142F61 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,23 @@
 		A5DE63E51445BA9D00142F61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5DE63E71445BA9D00142F61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5DE63E91445BA9D00142F61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A5DE63ED1445BA9D00142F61 /* TwitterAPIExample-Info.plist */ = {isa = PBXFileReference; path = "TwitterAPIExample-Info.plist"; sourceTree = "<group>"; };
+		A5DE63ED1445BA9D00142F61 /* TwitterAPIExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterAPIExample-Info.plist"; sourceTree = "<group>"; };
 		A5DE63EF1445BA9D00142F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5DE63F11445BA9D00142F61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5DE63F31445BA9D00142F61 /* TwitterAPIExample-Prefix.pch */ = {isa = PBXFileReference; path = "TwitterAPIExample-Prefix.pch"; sourceTree = "<group>"; };
-		A5DE63F41445BA9D00142F61 /* TWAPIExampleAppDelegate.h */ = {isa = PBXFileReference; path = TWAPIExampleAppDelegate.h; sourceTree = "<group>"; };
+		A5DE63F31445BA9D00142F61 /* TwitterAPIExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterAPIExample-Prefix.pch"; sourceTree = "<group>"; };
+		A5DE63F41445BA9D00142F61 /* TWAPIExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAPIExampleAppDelegate.h; sourceTree = "<group>"; };
 		A5DE63F51445BA9D00142F61 /* TWAPIExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAPIExampleAppDelegate.m; sourceTree = "<group>"; };
 		A5DE63F81445BA9D00142F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		A5DE63FB1445BA9D00142F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		A5DE63FD1445BA9D00142F61 /* TWAPIExampleViewController.h */ = {isa = PBXFileReference; path = TWAPIExampleViewController.h; sourceTree = "<group>"; };
+		A5DE63FD1445BA9D00142F61 /* TWAPIExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAPIExampleViewController.h; sourceTree = "<group>"; };
 		A5DE63FE1445BA9D00142F61 /* TWAPIExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAPIExampleViewController.m; sourceTree = "<group>"; };
 		A5DE64051445BA9D00142F61 /* TwitterAPIExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterAPIExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DE64061445BA9D00142F61 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A5DE640E1445BA9D00142F61 /* TwitterAPIExampleTests-Info.plist */ = {isa = PBXFileReference; path = "TwitterAPIExampleTests-Info.plist"; sourceTree = "<group>"; };
+		A5DE640E1445BA9D00142F61 /* TwitterAPIExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterAPIExampleTests-Info.plist"; sourceTree = "<group>"; };
 		A5DE64101445BA9D00142F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A5DE64121445BA9D00142F61 /* TwitterAPIExampleTests.h */ = {isa = PBXFileReference; path = TwitterAPIExampleTests.h; sourceTree = "<group>"; };
+		A5DE64121445BA9D00142F61 /* TwitterAPIExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwitterAPIExampleTests.h; sourceTree = "<group>"; };
 		A5DE64131445BA9D00142F61 /* TwitterAPIExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterAPIExampleTests.m; sourceTree = "<group>"; };
+		A5DE641D1445BCC500142F61 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DE641E1445BCC500142F61 /* Twitter.framework in Frameworks */,
 				A5DE63E61445BA9D00142F61 /* UIKit.framework in Frameworks */,
 				A5DE63E81445BA9D00142F61 /* Foundation.framework in Frameworks */,
 				A5DE63EA1445BA9D00142F61 /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +105,7 @@
 		A5DE63E41445BA9D00142F61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5DE641D1445BCC500142F61 /* Twitter.framework */,
 				A5DE63E51445BA9D00142F61 /* UIKit.framework */,
 				A5DE63E71445BA9D00142F61 /* Foundation.framework */,
 				A5DE63E91445BA9D00142F61 /* CoreGraphics.framework */,
