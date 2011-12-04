@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A584C52B148B508200FA15C1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A584C52A148B508200FA15C1 /* Accounts.framework */; };
 		A5DE63E61445BA9D00142F61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DE63E51445BA9D00142F61 /* UIKit.framework */; };
 		A5DE63E81445BA9D00142F61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DE63E71445BA9D00142F61 /* Foundation.framework */; };
 		A5DE63EA1445BA9D00142F61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DE63E91445BA9D00142F61 /* CoreGraphics.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A584C52A148B508200FA15C1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A5DE63E11445BA9D00142F61 /* TwitterAPIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterAPIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DE63E51445BA9D00142F61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5DE63E71445BA9D00142F61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A584C52B148B508200FA15C1 /* Accounts.framework in Frameworks */,
 				A5DE641E1445BCC500142F61 /* Twitter.framework in Frameworks */,
 				A5DE63E61445BA9D00142F61 /* UIKit.framework in Frameworks */,
 				A5DE63E81445BA9D00142F61 /* Foundation.framework in Frameworks */,
@@ -105,6 +108,7 @@
 		A5DE63E41445BA9D00142F61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A584C52A148B508200FA15C1 /* Accounts.framework */,
 				A5DE641D1445BCC500142F61 /* Twitter.framework */,
 				A5DE63E51445BA9D00142F61 /* UIKit.framework */,
 				A5DE63E71445BA9D00142F61 /* Foundation.framework */,
@@ -448,6 +452,7 @@
 				A5DE64191445BA9D00142F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5DE641A1445BA9D00142F61 /* Build configuration list for PBXNativeTarget "TwitterAPIExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +461,7 @@
 				A5DE641C1445BA9D00142F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
