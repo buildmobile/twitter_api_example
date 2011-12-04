@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
 #import <Twitter/Twitter.h>
 
 @interface TWAPIExampleViewController : UIViewController
-
+    @property (nonatomic, retain) ACAccountStore *store;
     @property (nonatomic, retain) UILabel *tweetLabel;
     
 -(void)getTweet;

@@ -10,7 +10,7 @@
 
 @implementation TWAPIExampleViewController
 
-@synthesize tweetLabel;
+@synthesize store, tweetLabel;
 
 - (void)didReceiveMemoryWarning
 {
