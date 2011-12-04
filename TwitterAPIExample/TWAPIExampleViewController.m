@@ -23,8 +23,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.store = [[ACAccountStore alloc] init];
+    ACAccountType *twitterAccountType = [self.store accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
+    
+    [self.store requestAccessToAccountsWithType:twitterAccountType withCompletionHandler:^(BOOL granted, NSError *error) {
+        if(!granted) {
+            abort();
+            // We didn't get access, so we'll show an error and exit.
+        }
+        return;
+    }];
     
     self.tweetLabel = (UILabel*)[self.view viewWithTag:1];
+    
     
     [self getTweet];
 }
